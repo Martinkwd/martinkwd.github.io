@@ -1,0 +1,42 @@
+
+body {
+
+    background-image: url('stars-1837306_640.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+}
+
+p {
+    color: white;
+    font-size: 20PX;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40PX;
+    /* font-family: ; */
+}
+
+strong {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-stretch: normal;
+    font-family: Chalkduster;
+    font-weight: 5000
+    
+
+}
+
+ul {
+    color: white;
+    font-size: 20PX;
+    font-weight: 900;
+}
+
+
