@@ -1,66 +1,30 @@
-
-body {
-    margin:0;
-    padding: 0;
+.container{
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
-    background-image: url('photo-1444080748397-f442aa95c3e5.avif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     
 }
 
-.main1{
 
-    display: grid;
-    grid-template-columns: 31% 1% 1fr;
-}
-
-.leftpart{
+.item1{
     background-image: url('stars-1837306_640.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-p, h2, h3, h4, header {
-    padding: 1rem;
+
+.item2{
+    background-image: url('photo-1444080748397-f442aa95c3e5.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-p {
-
-    color: white;
-    font-size: 20PX;
-    font-weight: 900;
-}
-
-h1 {
-    text-align: left;
-    color: white;
-    font-size: 40PX;
-}
-
-h3{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-}
-h4{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-
-}
-
-
 .profile {
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
     overflow: hidden;
-    text-align: center;
+    align-items: center;
 }
 
 .profile img {
@@ -68,18 +32,30 @@ h4{
     height: auto;
 }
 
-
-ul {
-    list-style: none;
+h2, h3, h4, header {
+    padding: 1rem;
     color: white;
     font-size: 17px;
-    font-weight: 900;
+    font-stretch: normal;
+    font-family: Chalkduster;
+    font-weight: 5000
+}
+p{
+    padding: 1rem;
+    color: white;
+    font-stretch: normal;
+    font-weight: 5000
+
 }
 
+ul{
+    color: white;
+    font-stretch: normal;
+    font-weight: 5000
 
+}
 a:link{
     color: white;
-    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 
@@ -96,80 +72,13 @@ a:active{
 }
 
 a:focus{
-    color: blueviolet;
-    text-decoration: line-through;
+    color: white;
 }
 
 a:visited{
     color: brown;
     font-style: italic;
 }
-
-
-.aboutme{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-
-}
-.personal{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-}
-
-.Skills{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-}
-.lang{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-
-}
-
-
-
-
-.education{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-    
-}
-
-.goals{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-
-}
-
-.experience{
-    color: white;
-    font-size: 17px;
-    font-stretch: normal;
-    font-family: Chalkduster;
-    font-weight: 5000
-
-
-}
-
-
 
 
 
